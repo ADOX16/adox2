@@ -1,0 +1,164 @@
+body{
+    background-color: black;
+}
+h1{
+    color:chartreuse;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.lesson{
+    color: aqua;
+}
+.Note{
+    color: crimson;
+}
+dt{
+    color: deeppink;
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+    font-weight: bold;
+    cursor: default;
+}
+dd{
+    color:rgb(205, 255, 255);
+    width: 430px;
+}
+#css{
+    border: 2px solid antiquewhite;
+    border-radius: 20px;
+    border-top-width: 0dvi;
+    margin-top: -10px;
+    text-align: center;
+    padding-right: 10px;
+}
+#css::first-letter{
+    font-size: 2em;
+}
+span{
+    background-color: rgb(22, 22, 24);
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    height: 100px;
+    overflow: auto;
+}
+span::selection{
+    background-color: chartreuse;
+    color:black
+}
+.pic{
+    margin: 10px;
+    float: left;
+}
+#Tags{
+    margin:auto;
+}
+#here{
+    font-size: large;
+}
+#here:hover{
+    color: white;
+    font-size: x-large;
+}
+#here:active{
+    color:red;
+    font-size: xx-large;
+}
+pre::selection{
+    background-color: black;
+    font-size: large;
+    color: white;
+}
+dd::selection{
+    background-color: black;
+    font-size: larger;
+    color: deeppink;
+}
+dt:hover{
+    font-weight:1000;
+    color:chartreuse;
+}
+dt::selection{
+    background-color: black;
+    color:darkmagenta
+}
+img::selection{
+    background-color: black;
+}
+h1::selection{
+    background-color: black;
+    color: blue;
+}
+#nob{
+    color: deeppink;
+    font-family: 'Segoe UI', Tahoma,Verdana, sans-serif;
+    font-weight: bold;
+    cursor: default;
+    text-decoration: none;
+}
+#nob:hover{
+    font-weight:1000;
+    color:chartreuse;
+}
+
+#css:hover{
+    cursor: default;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes glow{
+    to{text-shadow: 0px 0px 20px cyan;}
+    
+}
+.ani{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 255, 0);
+    animation-name: go;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes go {
+    to{transform: translateX(350px);}
+}
+#ani1{
+    animation-direction: reverse;
+}
+#ani2{
+    animation-direction: alternate;
+}
+#ani3{
+    animation-direction: alternate-reverse;
+}
+#ani4{
+    animation-timing-function: ease-in-out;
+}
+#ani5{
+    animation-timing-function: linear;
+}
+#ani6{
+    animation-timing-function: steps(5);
+}
+
+#ani7{
+    width: 100px;
+    height: 100px;
+    float: right;
+    transform: translatey(50px);
+    background-color: rgb(9, 255, 0);
+    animation-name: godown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.64,-1.29, 0.17, 2.05);
+}
+@keyframes godown{
+    to{transform: translatey(220px);}
+}
+#uponwhat{
+    color: black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}

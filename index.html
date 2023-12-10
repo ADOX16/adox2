@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>css</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="csslogo.png">
+    </head>
+    <body>
+        <h1 id = "css">css</h1>
+        <pre class = lesson>so okay css. we can add an id to any 
+            thing in html and we can call it in the 
+            css file using # and we can also put a class 
+            and it will be mention in css using . yse a dot 
+            and * means all elements.
+
+              = descendant
+            > = child
+            ~ = general sibling
+            + - adjacent sibling
+
+            we can add a word after an element that trigger something
+            for example : h1:hover this will trigger when hover over 
+            a h1 elemnt there is also a:link used to change the propties 
+            of a link and there is :active this trigger when the mouse is 
+            holding the element and visited which mark a visited websites
+            more on that <a id="here" href="https://youtu.be/HGTJBPNC-Gw?t=8952&si=ljovzS8Y0JibLRWN" target="_blank">Here</a>.
+            we can also add not to any of these to reverse the order
+
+            after an element we can add :: then a keyword to do some crazy stuff
+            for example ::frirt-letter to target a first letter of something
+            ::firist line , there is also ::selection we can change a selection
+            ::before at the begning of a st ::after at the end.
+        </pre>
+        <br>
+        <hr>
+        <h1 id="Tags">Tags section</h1>
+        <dl>
+            <dt>-color</dt>
+            <dd>it changes color of text and can be
+                 used to alot of things i thinK?</dd>
+
+            <dt>-opacity</dt>
+            <dd>change the opacity of an element</dd>
+
+            <dt>-background-color</dt> 
+            <dd>it changes the background color</dd>
+
+            <dt>-font-family</dt>
+            <dd>used to change font of a text</dd>
+
+            <dt>-font-size</dt>
+            <dd>can change the size of the text we can use alot of
+                 mesuresment for it like em which 1em means 100% we
+                can also get fonts from google or other stuff. </dd>
+
+            <dt>-font-weight</dt>
+            <dd>it changes how bold or narrow the text is </dd>
+
+            <dt>-font-style</dt>
+            <dd>makes the font maybe <i>italic</i> or other kind of styles</dd>
+
+            <dt>-border-style</dt>
+            <dd>create and changes the style of the border by default its solid</dd>
+
+            <dt>-border-width</dt>
+            <dd>changes the thickness of the the border</dd>
+
+            <dt>-border-color</dt>
+            <dd>changes border color</dd>
+
+            <dt>-border</dt>
+            <dd>this create a border with all the three
+                propties above and the the syntex goes like this
+                border: "-border-width" "-border-style" "-border-color"
+                for example:<br><span>border: 3px  solid white;</span>
+            </dd>
+
+            <dt>-border-radius</dt>
+            <dd>changes how round the border is max is 20px</dd>
+
+            <dt>-border-bottem</dt>
+            <dd>as well as -border-top, -border-right, border-left
+                they make a border on a spesfic direction and they
+                share the same syntex as '-border'
+            </dd>
+
+            <dt>-text-shadow</dt>
+            <dd>makes shadows for a text and the syntex goes like things
+                -text-shadow : width height blur color , and we can add more 
+                shadows to the text using commaa for example:
+                <br><span>text-shadow : 3px 3px 5px red , 2px 2px 0px blue</span>
+            </dd>
+            
+            <dt>-box-shadow</dt>
+            <dd>same as -text-shadow.</dd>
+
+            <dt>-margin</dt>
+            <dd><img src="borders.png"class ="pic">this is a margin which is like
+            the outer layer of an onion it can be changed in pixels 
+            and there is also margin-bottm margin-right etc......
+            and there is also auto we can apply to margin which is can be used to make
+            something in the middel for example</dd>
+            
+            <br><br>
+            <dt>-float</dt>
+            <dd>we can do floar: left; or right this will make text is beside a pic
+                like on the pic above </dd>
+
+            <dt><a href="https://hentaihaven.xxx/watch/overflow/episode-1/" target="_blank" id="nob">-overflow</a></dt>
+            <dd>the -overflow prevents text or items to overflow from 
+                a specfic box "its better to asign the height of the box before doing it"
+                and there is diffrent types of overflows like:
+                visble, hidden, clip, scroll, auto
+            </dd>
+
+            <dt>-display</dt>
+            <dd>propety specfiy how if /how and elment is displayed 
+                for example :
+                display : inline; this will make the div or span or whatever
+                inline of the text besides it
+                ,block will make the text a block like the div which means you can 
+                apply a width and a height to it .
+                and none it make the element invisible and make it like it didnt exict
+            </dd>
+            
+            <dt>-visibility</dt>
+            <dd>we can set it to hidden but it doesnt make the elment
+                vanish it just make it invisible but it will still exict
+            </dd>
+
+            <dt>-position</dt>
+            <dd>this can get 5 values firist is 
+                <span>relative:</span> and this mean that the elemnt will be 
+                positioned relative to it staring point.<span>fixed:</span>
+                and this position the element relative to the viewport
+                <span>absolute:</span>positioned relative to the nearest ancestor 
+                the ancestor is like an elemnt inside a class for example a box
+                and the elemnt is positioned in this box.<span>sticky:</span>
+                which makes the element in it postion untill we scroll down then it 
+                will be in top of the screen<span>static:</span>the default postion
+                of the element. note that to change the postion we gotta use top , bottom
+                , left , right.
+            </dd>
+
+            <dt>-background-image</dt>
+            <dd>id adds a background image using this syntex:
+                <br><span>background-image : url(the_background_image);</span>
+                but if we made the background-image low resloution it will
+                be repeated to make it not we add <span>background-repeat : no-repeat;</span>
+                we can also position it using <span>background-postion</span> and like the
+                postion : fixed propety we also have it in background <span>background-attachment</span>
+                but after we done the picture will still be awful and not acullaly fixed so to do that
+                we add this:<br><span>background-size: cover;</span>.         <a  href="upon_what.html"><pre id="uponwhat">                                                                                         ◆︎◻︎□︎■︎ ⬥︎♒︎♋︎⧫︎✍︎</pre></a>
+            </dd>
+
+            <dt>-tranform</dt>
+            <dd>it let us potsion, rotate, scale, or skew an element
+                using <span>transform: translateX(100px);</span> we can change the 
+                postion of the element same with translateY or we can also use
+                <span>translate(x, y)</span> then we have also <span>rotateX(180deg)</span>
+                and also rotateY and also <span>rotateZ(90deg)</span>and for scale we use <span>
+                    scalex() or scaleY() and scale()
+                </span> andd finally skew they all the same. we can apply one or more 
+                transformations in transform like <span>transform: translate(100px, 200px) rotateZ(45deg);</span>
+            </dd>
+        </dl>
+
+        <br><hr><h1>Animations</h1>
+        <pre class="lesson">Animation in css its kinda cool and tricky in here i will
+            explaing everything i know in it.
+
+            so firist to create an animation we do this syntex:
+            <span>@keyframe (animation name){from{(the animation changes)}}</span>
+            this "from" can be replaced to some stuff like to or a precntage
+            like 100%, 69% and what does that mean is: 
+            from : the anmtion is gonna go to its begning point
+            to:  the animation gonna start from its begning point
+            and the precntage mean that the anmaition will happen for example
+            60% and come back.
+
+            we can add more that one action to an animation but even if 
+            we did an animation it still doesnt work. why?. will to make it
+            work we have to add some propties to the thing we want to animate
+            like this:
+        </pre>
+
+        <br><hr><h1>animation tags:</h1>
+            <dl>
+                <dt>-animation-name</dt>
+                <dd>to make the element move we firist have to
+                    call the animation name we made in it propties
+                    using <span>animation-name: (animation name);</span>
+                </dd>
+
+                <dt>-animation-duration</dt>
+                <dd>but even after adding the animtion to the element
+                    it doesnt move why? cause we have to add an duration
+                    to the animation firist so it happen in a certin time
+                    we use this :<span>animation-duration</span>
+                </dd>
+
+                <dt>-animation-iteration-count</dt>
+                <dd>this will tell the elemnt how many time it need
+                    to repeat the animation for example: 
+                    <span>animation-iteration-count: 2;</span> this 
+                    will repeat the animation 2 times but if set this
+                    value to <span>infinte</span> then it will repeat an 
+                    infinte amount of times.
+                </dd>
+
+                <dt>-animation-direction</dt>
+                <dd>this will set the way the element move for example:
+                    normaly this will set like this:<span>animation-direction: normal;</span>
+                    will we can change the value normal to anything else like <span>reverse</span>:
+                    <div id="ani1" class="ani"></div>
+                    and there is also <span>alternate</span> which gonna make the 
+                    element go to its postion and return back :
+                    <div id="ani2" class="ani"></div>
+                    and there is also <span>alternate-reverse</span> whats do what you think:
+                    <div id="ani3" class="ani"></div>
+                </dd>
+
+                <dt>-animation-play-state</dt>
+                <dd>there is 2 values for this firist <span>paused</span>
+                and <span>running</span> its obvious what it do and it could be
+                  usefule in javascript</dd>
+                
+                <dt>-animation-timing-function</dt>
+                <dd>the default value of this is <span>ease-in-out</span>
+                which look like this: <div id="ani4" class="ani"></div>
+                there is some diffrent things we can put like <span>linear</span>
+                which look like this:<div id="ani5" class="ani"></div>and there 
+                is also a cool thing we can add which is <span>steps()</span>
+                this trigger how much steps or frames to complete the animation
+                for example if we set this to 5 it will look like this:
+                <div id="ani6" class="ani"></div>cool right? here is even a 
+                better thing if we right click on the element and then click inspect then
+                styles we can find the -animation-timing-function then we 
+                we click on the purple box and a curve appear and we can make our
+                own -animation-timing-function<img src="curve.png" class="pic"> then we copy the cubic bezier and paste it
+                and it will move like the curve for example:<div id="ani7"></div></dd>
+            </dl>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+            <pre class="lesson">well that was Css:) it was a nice journey learning it.cause
+it will be helpful in the future.
+
+look for secrets upon it.
+
+&copy; by ADOX.
+
+12/10/23
+            </pre>
+    </body>
+</html>
